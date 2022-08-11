@@ -1,20 +1,8 @@
 """
-Aplikasi deteksi gempa terkini
-MODULARISASI DENGAN FUNCTION
+cob coba aja nih
 """
 
 def ekstraksi_data():
-
-    """
-    Tanggal : 24 Agustus 2021
-    Waktu : 12:05:52 wib
-    Magnitudo : 4.0
-    Kedalaman : 40 KM
-    Lokasi : LS = 148  BT = 134.01
-    Pusat Gempa : Pusat gempa berada di darat 18 KM barat laut Ransiki
-    Dirasakan : Dirasakan (skala MMI) II-III Manokwari, II-III Ransiki
-    :return:
-    """
 
     hasil = dict()
     hasil['tanggal'] = '24 Agustus 2021'
@@ -35,7 +23,8 @@ def tampilkan_data(result):
     print(f"{result['pusat']}")
     print(f"{result['dirasakan']}")
 
-if __name__ == '__main__':
+
+#if __name__ == '__main__':
     print('Aplikasi Utama')
     result = ekstraksi_data()
     tampilkan_data(result)
